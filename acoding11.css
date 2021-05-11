@@ -1,0 +1,65 @@
+
+.headings{
+padding: 10px;
+  text-align: center;
+  background:#797D7F;
+  font-size:30px;
+text-shadow:2px 2px white;
+}
+
+
+.code-area{
+display:flex;
+flex-direction:row;
+width:100%;  
+border-right:5px solid #555;
+margin:2px;
+}
+.code-area textarea{
+
+width: 110%;  
+  min-height: 300px;
+  margin:auto;
+  background: #1b1a1a;             <!--#f4f4f9; -->
+<!--  outline: none; -->
+  font-family: Courier, sans-serif;
+  font-size: 20px;
+padding:10px;
+color:white;
+height:33.33%;
+overflow:scroll;
+
+}
+
+
+
+*{
+margin:1px;
+padding:1px;
+box-sizing:border-box;
+}
+
+
+
+.preview {
+width:100%;
+height:115%;
+}
+
+.preview iframe {
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+<!--body{-->
+<!--height:1000px;-->
+<!--border:1px solid black;-->
+<!--display:flex;-->
+<!--}-->
+
+body{
+height:300px;
+}
+
